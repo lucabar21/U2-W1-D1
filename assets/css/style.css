@@ -275,6 +275,17 @@ footer a {
     display: flex;
     justify-content: center;
   }
+
+  aside div {
+    display: inline-block;
+    width: 33.333%;
+    margin-inline: -2px;
+  }
+}
+aside div p:last-child {
+  margin-bottom: 0;
+  font-size: 0.8em;
+  text-align: right;
 }
 
 /* PRINT SETTINGS */
